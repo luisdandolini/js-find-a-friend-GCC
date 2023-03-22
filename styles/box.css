@@ -40,6 +40,7 @@
   .container_box {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-left: 1.5rem;
     gap: 1rem;
   }
