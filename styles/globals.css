@@ -38,7 +38,6 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	font-family: 'Nunito', sans-serif;
-  color: white;
   padding-bottom: 70px;
 }
 ol, ul {
@@ -55,4 +54,10 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+.box h1{
+  color: var(--blue);
+  font-size: 1.875rem;
+  padding: 4.375rem 1.25rem 1.25rem 1.25rem;
 }

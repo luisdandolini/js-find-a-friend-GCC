@@ -119,10 +119,12 @@ header {
 .info__text {
   font-weight: 400;
   font-size: 14px;
+  color: #FFF;
 }
 
 .info__text span {
   font-weight: 700;
+  color: #FFF;
 }
 
 .hero_container .text-wrapper {
@@ -133,6 +135,7 @@ header {
   font-size: 44px;
   width: 280px;
   line-height: 110%;
+  color: #FFF;
 }
 
 .info__subtitle {
@@ -228,14 +231,15 @@ header {
     width: auto;
     line-height: 110%;
     margin-bottom: 80px;
+    color: #FFF;
   }
 
   .info__subtitle {
     display: block;
     font-size: 24px;
     font-weight: 400;
-    /* width: 400px; */
     line-height: 34px;
+    color: #FFF;
   }
 
   .menu {
@@ -297,22 +301,5 @@ header {
     height: 72px;
     border-radius: 20px;
     font-size: 20px;
-  }
-
-  main {
-    padding: 100px;
-    display: grid;
-    grid-template-areas: "title title"
-      "section screen";
-    gap: 32px;
-    grid-template-columns: 1fr 1fr;
-    max-width: 1440px;
-    margin: auto;
-  }
-
-  main h3 {
-    width: 100%;
-    font-size: 48px;
-    grid-area: title;
   }
 }
